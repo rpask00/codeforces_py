@@ -27,5 +27,6 @@ C = calculate(_A, _B, _n)
 print(C)
 
 # Złożoność obliczeniowa algorytmu to O(n * log log (n)),
-# gdyż jest to sama złożoność obliczania liczb pierwszych za pomocą sita Eratostenesa,
-# natomisat zamo zliczanie wystąpień tablicy odbywa się w czasie liniowym O(n).
+# gdyż jest to sama złożoność mechanizmu obliczania liczb pierwszych za pomocą sita Eratostenesa,
+# natomisat samo zliczanie wystąpień tablicy odbywa się w czasie liniowym O(n),
+# więc nie wpływa ono na finalną złożoność algorithmu.
